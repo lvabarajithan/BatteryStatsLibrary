@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BatteryStatsLibrary</string>
+    <string name="geek_status_text" formatted="false">Your %s battery with %s charge is in %s condition.</string>
+</resources>
