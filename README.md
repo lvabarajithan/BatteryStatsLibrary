@@ -1,3 +1,6 @@
+
+<img src="https://github.com/lvabarajithan/BatteryStatsLibrary/blob/master/ic_launcher-web.png" alt="Sample" width="200" height="200">
+
 ## BatteryStatsLibrary
 
 BatteryStatsLibrary is an Android library for implementing basic battery informations and to calculate remaining time for charge and discharge.
@@ -65,7 +68,7 @@ boolean charging = batteryStats.isCharging();
 
 To calculate the remaining time for battery to charge and discharge, Create a class extending BatteryTimeService.
 
-``java
+```java
 public class NotificationService extends BatteryTimeService {
 
     @Override
@@ -107,13 +110,14 @@ Finally declare the service in **AndroidManifest.xml**
               android:exported="false"/>
 ```
 
-## Note
+## Note 👈🏼
 
 >The calculated time may be inaccurate at first. Later, after tracking the battery usage for 3-4 levels.
 >It reports almost accurate time.
 
 ### License
 
+```
 Copyright 2018 Abarajithan Lv
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -127,3 +131,4 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+```
