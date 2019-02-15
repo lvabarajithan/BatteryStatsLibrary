@@ -239,7 +239,7 @@ public class BatteryStats {
      * Method to get the battery voltage with custom pattern.
      */
     public double getVoltage(String pattern) {
-        double volt = getVoltage();
+        double volt = batteryIntent.getIntExtra(BatteryManager.EXTRA_VOLTAGE, 0);
         return Double.valueOf(new DecimalFormat(pattern).format(volt / 1000.0D));
     }
 
